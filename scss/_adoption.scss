@@ -1,0 +1,80 @@
+.adoption__section {
+  position: relative;
+  background: #FFB775;
+border-radius: 20px;
+margin-bottom: 60px;
+  .adoption__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .adoption__left-box {
+      z-index: 99;
+      .adoption-bg-1 {
+        position: absolute;
+        overflow: hidden;
+        z-index: -1;
+        top: .5%;
+        left: 0;
+      }
+      h1 {
+        font-weight: 800;
+        font-size: 52px;
+        color: #003459;
+        margin-bottom: 5px;
+        
+      }
+      h3 {
+        font-weight: 700;
+        font-size: 36px;
+        color: #003459;
+        margin-bottom: 10px;
+      }
+      p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #242B33;
+        width: 370px;
+        margin-bottom: 45px;      
+      }
+      .adoption__left-one {
+        border: 1px solid #003459;
+        padding: 15px 35px;
+        border-radius: 55px;
+        color: #003459;
+        
+        &:hover {
+          background-color: black;
+          color: white;
+          transition: all ease 1s;
+          border: none;
+        }
+      }
+      .adoption__left-two {
+        background: #003459;
+        color: white;
+        padding: 15px 35px;
+        border-radius: 55px;
+        margin-right: 200px;
+        &:hover {
+          background-color: #23deaa;
+          transition: all ease 1s;
+        }
+      }
+    }
+    .adoption__right-box {
+      z-index: 99;
+      .adoption-img {
+        position: relative;
+        z-index: 99;
+
+      }
+      .adoption__bg-2 {
+        position: absolute;
+        right: 0;
+        top: 17.5%;
+      }
+    }
+  
+  }
+}
